@@ -24,7 +24,7 @@ export default function Home() {
 
   useEffect(() => {
     if (typeof window !== 'undefined' && typeof window.navigator !== 'undefined') {
-      braze.initialize('498148a6-a136-4e44-a205-c0eb03a446ec', {
+      braze.initialize('<BRAZE_KEY>', {
         baseUrl: "sdk.iad-05.braze.com",
         enableLogging: true
       });
